@@ -13,7 +13,7 @@ private ActivitySecondBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySecondBinding.inflate(LayoutInflater.from(getApplicationContext()));
+        binding = ActivitySecondBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         binding.text.setText(getIntent().getStringExtra("text"));
         binding.text1.setText(getIntent().getStringExtra("text1"));
