@@ -4,11 +4,13 @@ public class Music {
     private String singer;
     private String music;
     private String time;
+    private String number;
 
-    public Music(String singer, String music, String time) {
+    public Music(String singer, String music, String time, String number) {
         this.singer = singer;
         this.music = music;
         this.time = time;
+        this.number = number;
     }
 
     public String getSinger() {
@@ -33,5 +35,13 @@ public class Music {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 }

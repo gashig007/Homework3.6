@@ -49,6 +49,8 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MusicViewHol
             binding.music.setText(music.getMusic());
             binding.singer.setText(music.getSinger());
             binding.time.setText(music.getTime());
+            binding.number.setText(music.getNumber());
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

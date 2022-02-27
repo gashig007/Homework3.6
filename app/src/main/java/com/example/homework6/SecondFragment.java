@@ -36,16 +36,16 @@ public class SecondFragment extends Fragment implements OnClick{
 
     private void loadData() {
         musics = new ArrayList<>();
-        musics.add(new Music("Morgenshtern", "я когда нибудь уйду", "02:40"));
-        musics.add(new Music("Мот, Jony", "Будь моим огнем или водопадом", "03:20"));
-        musics.add(new Music("The Kid LAROI", "WITHOUT YOU", "02:41"));
-        musics.add(new Music("Kirkiimad", "Я лего 15 тысяч", "02:23"));
-        musics.add(new Music("escape, Konfuz", "Не смотри", "02:32"));
-        musics.add(new Music("FEDUK", "Хлопья летять наверх", "04:22"));
-        musics.add(new Music("Ed Sheeran", "Shape of You", "03:53"));
-        musics.add(new Music("Alan Walker", "Faded", "02:40"));
-        musics.add(new Music("Morgenshtern", "Дуло", "02:06"));
-        musics.add(new Music("Morgenshtern", "Show", "01:38"));
+        musics.add(new Music("Morgenshtern", "я когда нибудь уйду", "02:40", "1"));
+        musics.add(new Music("Мот, Jony", "Будь моим огнем или водопадом", "03:20", "2"));
+        musics.add(new Music("The Kid LAROI", "WITHOUT YOU", "02:41","3"));
+        musics.add(new Music("Kirkiimad", "Я лего 15 тысяч", "02:23","4"));
+        musics.add(new Music("escape, Konfuz", "Не смотри", "02:32","5"));
+        musics.add(new Music("FEDUK", "Хлопья летять наверх", "04:22","6"));
+        musics.add(new Music("Ed Sheeran", "Shape of You", "03:53","7"));
+        musics.add(new Music("Alan Walker", "Faded", "02:40","8"));
+        musics.add(new Music("Morgenshtern", "Дуло", "02:06","9"));
+        musics.add(new Music("Morgenshtern", "Show", "01:38","10"));
 
     }
 
